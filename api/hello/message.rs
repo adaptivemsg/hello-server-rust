@@ -1,0 +1,18 @@
+use adaptivemsg as am;
+
+#[am::message]
+pub struct HelloRequest {
+    pub who: String,
+    pub question: String,
+}
+
+#[am::message]
+pub struct HelloReply {
+    pub answer: String,
+    pub internal: HelloInternal,
+}
+
+#[am::message]
+pub struct HelloInternal {
+    pub trace_id: String,
+}

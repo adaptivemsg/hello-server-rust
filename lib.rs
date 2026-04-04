@@ -1,5 +1,7 @@
-#[path = "api/hello/message.rs"]
-pub mod hello;
+pub mod api {
+    #[path = "hello/message.rs"]
+    pub mod hello;
+}
 
 #[path = "api/hello/handler.rs"]
 #[cfg(not(feature = "client"))]

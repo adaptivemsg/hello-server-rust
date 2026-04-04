@@ -1,7 +1,7 @@
 use adaptivemsg as am;
 use am::{Message, MessageHandler, Result, StreamContext};
 
-use crate::hello::{HelloInternal, HelloReply, HelloRequest};
+use crate::api::hello::{HelloInternal, HelloReply, HelloRequest};
 
 #[am::message_handler]
 impl MessageHandler for HelloRequest {

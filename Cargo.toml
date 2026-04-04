@@ -8,7 +8,7 @@ default = []
 client = []
 
 [dependencies]
-adaptivemsg = { path = "../adaptivemsg-rust" }
+adaptivemsg = { git = "https://github.com/adaptivemsg/adaptivemsg-rust.git" }
 serde = { version = "1.0", features = ["derive"] }
 tokio = { version = "1.38", features = ["rt-multi-thread", "macros", "time"] }
 tracing-subscriber = "0.3"

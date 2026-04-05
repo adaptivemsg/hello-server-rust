@@ -1,6 +1,6 @@
-use hello_server_rust as _;
 use adaptivemsg as am;
 use clap::Parser;
+use hello_server as _;
 
 #[derive(Parser)]
 #[command(name = "hello-server-rust", about = "Hello server for adaptivemsg")]

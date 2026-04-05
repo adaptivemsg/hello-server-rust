@@ -22,5 +22,5 @@ name = "server"
 path = "server.rs"
 
 [lib]
-name = "hello_server_rust"
+name = "hello_server"
 path = "lib.rs"

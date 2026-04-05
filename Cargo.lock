@@ -5,6 +5,7 @@ version = 3
 [[package]]
 name = "adaptivemsg"
 version = "0.1.0"
+source = "git+https://github.com/adaptivemsg/adaptivemsg-rust.git#c5a917f5c68a477f68d7a2a7c1302bd52b0a0887"
 dependencies = [
  "adaptivemsg-macros",
  "anyhow",
@@ -24,6 +25,7 @@ dependencies = [
 [[package]]
 name = "adaptivemsg-macros"
 version = "0.1.0"
+source = "git+https://github.com/adaptivemsg/adaptivemsg-rust.git#c5a917f5c68a477f68d7a2a7c1302bd52b0a0887"
 dependencies = [
  "proc-macro2",
  "quote",
